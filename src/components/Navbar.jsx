@@ -25,7 +25,7 @@ const Navbar = () => {
           {/* LOGO */}
           <Link
             to="/"
-            className="text-xl md:text-2xl font-black tracking-normal text-white uppercase"
+            className="text-2xl md:text-3xl font-black tracking-normal text-white uppercase"
             onClick={() => setIsOpen(false)}
           >
             {shopName.split(' ')[0]} <span className="text-chrome-400">{shopName.split(' ')[1] || ""}</span>
