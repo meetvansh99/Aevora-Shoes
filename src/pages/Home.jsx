@@ -240,11 +240,11 @@ const Home = () => {
 
       {/* --- HERO SECTION --- */}
       <section className="flex flex-col items-center justify-center text-center space-y-8 mb-24 md:mb-40 animate-in fade-in zoom-in duration-1000">
-        <h1 className="text-7xl sm:text-8xl md:text-8xl lg:text-[10rem] font-black tracking-normal text-white uppercase leading-none select-none drop-shadow-neon">
+        <h1 className="text-[clamp(3.5rem,18vw,5.5rem)] sm:text-8xl md:text-8xl lg:text-[10rem] font-black tracking-normal text-white uppercase leading-none select-none drop-shadow-neon">
           {shopName.split(' ')[0]} <br className="md:hidden" /> <span className="text-chrome-400">{shopName.split(' ')[1] || ""}</span>
         </h1>
 
-        <p className="text-[10px] md:text-sm text-chrome-300 font-black uppercase tracking-[0.6em] px-4">
+        <p className="text-xs md:text-sm text-chrome-300 font-black uppercase tracking-[0.6em] px-4">
           {tagline}
         </p>
 
